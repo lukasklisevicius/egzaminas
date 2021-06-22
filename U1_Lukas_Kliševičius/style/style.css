@@ -72,6 +72,7 @@ input{
     padding: 5px;
     margin-bottom: 10px;
     width: 100%;
+    border:1px solid #697070;
 
 }
 
@@ -159,6 +160,9 @@ ul{
     .card{
         max-width: 300px;
         margin:10px
+    }
+    form{
+        width: 50%;
     }
     
 }
