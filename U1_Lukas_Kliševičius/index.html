@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
         referrerpolicy="no-referrer" />
     <!-- link to style -->
-    <link rel="stylesheet" href="/style/style.css">
+    <link rel="stylesheet" href="style/style.css">
     <!-- fonts link -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -39,7 +39,7 @@
                             <span class="rating">4</span>
                             <ul>
                                 <li><i class="active fas fa-star"></i></li>
-                                <li><i class="fas fa-star"></i></li>
+                                <li><i class="active fas fa-star"></i></li>
                                 <li><i class="fas fa-star"></i></li>
                                 <li><i class="fas fa-star"></i></li>
                                 <li><i class="fas fa-star"></i></li>
@@ -65,8 +65,8 @@
                             <span class="rating">4</span>
                             <ul>
                                 <li><i class="active fas fa-star"></i></li>
-                                <li><i class="fas fa-star"></i></li>
-                                <li><i class="fas fa-star"></i></li>
+                                <li><i class="active fas fa-star"></i></li>
+                                <li><i class="active fas fa-star"></i></li>
                                 <li><i class="fas fa-star"></i></li>
                                 <li><i class="fas fa-star"></i></li>
                             </ul>
@@ -91,9 +91,61 @@
                             <span class="rating">4</span>
                             <ul>
                                 <li><i class="active fas fa-star"></i></li>
+                                <li><i class="active fas fa-star"></i></li>
+                                <li><i class="active fas fa-star"></i></li>
+                                <li><i class="active fas fa-star"></i></li>
                                 <li><i class="fas fa-star"></i></li>
+                            </ul>
+                        </div>
+                        <span class="comment"><i class="active fas fa-comment"></i><span
+                                class="coment-count">5</span></span>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/git.jpg" alt="">
+                <div class="card-inside">
+                    <a href="#" class="course-name">Pavadinimas</a>
+                    <span class="author">autorius</span>
+                    <p class="about">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi nobis dolore
+                        accusantium
+                        quam enim molestiae minima cum deleniti dicta nostrum vitae dolor neque, quia debitis a
+                        veritatis
+                        praesentium! Nam, labore?</p>
+                    <div class="card-footer">
+                        <div class="rating-box">
+                            <span class="rating">4</span>
+                            <ul>
+                                <li><i class="active fas fa-star"></i></li>
+                                <li><i class="active fas fa-star"></i></li>
+                                <li><i class="active fas fa-star"></i></li>
+                                <li><i class="active fas fa-star"></i></li>
                                 <li><i class="fas fa-star"></i></li>
-                                <li><i class="fas fa-star"></i></li>
+                            </ul>
+                        </div>
+                        <span class="comment"><i class="active fas fa-comment"></i><span
+                                class="coment-count">5</span></span>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/git.jpg" alt="">
+                <div class="card-inside">
+                    <a href="#" class="course-name">Pavadinimas</a>
+                    <span class="author">autorius</span>
+                    <p class="about">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi nobis dolore
+                        accusantium
+                        quam enim molestiae minima cum deleniti dicta nostrum vitae dolor neque, quia debitis a
+                        veritatis
+                        praesentium! Nam, labore?</p>
+                    <div class="card-footer">
+                        <div class="rating-box">
+                            <span class="rating">4</span>
+                            <ul>
+                                <li><i class="active fas fa-star"></i></li>
+                                <li><i class="active fas fa-star"></i></li>
+                                <li><i class="active fas fa-star"></i></li>
+                                <li><i class="active fas fa-star"></i></li>
                                 <li><i class="fas fa-star"></i></li>
                             </ul>
                         </div>
@@ -106,14 +158,14 @@
 
         <h1>Sekite naujienas</h1>
         <span class="sometext">Lorem ipsum dolor sit amet consectetur,</span>
-        <form action="">
+        <form action="" method="post" name="myform" onsubmit="return validateform()">
             <label for="vardas">Vardas</label>
             <br>
-            <input type="text" name="vardas" id="vardas">
+            <input type="text" name="vardas" id="vardas" value="">
             <br>
             <label for="email">El.paštas</label>
             <br>
-            <input type="email" name="email" id="email">
+            <input type="email" name="email" id="email" value="">
             <br>
             <input class="submit" type="submit" value="Užsiprenumeruoti">
         </form>
@@ -125,7 +177,7 @@
 
 
     <!-- Link to JavaScript file  -->
-    <script src="/script/script.js"></script>
+    <script src="script/script.js"></script>
 </body>
 
 </html>
